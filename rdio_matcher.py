@@ -178,7 +178,7 @@ def query_movie_list(in_file = 'bollywoodMovies.json',out_file = 'movie_song_inf
 	# return movies
 
 
-	all_movie_info = {}
+	all_movie_info = []
 	# print movies[0:20]
 	album_total_found = 0
 	tracks_total_found = 0
@@ -190,7 +190,8 @@ def query_movie_list(in_file = 'bollywoodMovies.json',out_file = 'movie_song_inf
 		(info,album_found,tracks_found) = get_tracks(movie[0], movie[1])
 		album_total_found += album_found
 		tracks_total_found += tracks_found
-		all_movie_info[movie[0]] = info
+		# all_movie_info[movie[0]] = info
+		all_movie_info.append(info)
 
 	print 'albums and tracks found'
 	print album_total_found

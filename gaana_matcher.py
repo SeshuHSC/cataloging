@@ -54,7 +54,7 @@ def get_album_list(limits = [-1,8487],  out_file = 'all_hindi_albums_gaana.json'
 	'''Iterates over all the albums and all the tracks available from the all albums endpoint of gaana'''
 
 	iters = range(limits[0],limits[1],100)
-	all_info = {}
+	all_info = []
 	k = 0
 	for idx,val in enumerate(iters):
 		if idx == len(iters) -1:
@@ -113,7 +113,8 @@ def get_album_list(limits = [-1,8487],  out_file = 'all_hindi_albums_gaana.json'
 
 			# print tr	
 			album_info["track_list"] = get_tracks_info(tr)
-			all_info[album_info["album_name"]] = album_info
+			# all_info[album_info["album_name"]] = album_info
+			all_info.append(album_info)
 		# except:
 		# 	pass
 
@@ -203,7 +204,8 @@ def query_movie_list(in_file = 'bollywoodMovies.json',out_file = 'movie_song_inf
 	# return movies
 
 
-	all_movie_info = {}
+	# all_movie_info = {}
+	all_movie_info = []
 	# print movies[0:20]
 	album_total_found = 0
 	tracks_total_found = 0
@@ -217,7 +219,7 @@ def query_movie_list(in_file = 'bollywoodMovies.json',out_file = 'movie_song_inf
 		print tracks_found
 		album_total_found += album_found
 		tracks_total_found += tracks_found
-		all_movie_info[movie[0]] = info
+		all_movie_info.append(info)
 
 	print 'albums and tracks found'
 	print album_total_found
