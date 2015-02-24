@@ -95,7 +95,7 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 	# print num_cores
 	
 	outputDict = {}
-	results = Parallel(n_jobs= (num_cores - 1) )(delayed(async_get)(urls , idx) for idx,urls in enumerate(url_chunks))
+	results = Parallel(n_jobs= (num_cores ) )(delayed(async_get)(urls , idx) for idx,urls in enumerate(url_chunks))
 
 
 
@@ -111,7 +111,7 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 	for idx,jumbled_urls in enumerate(jumbled_url_chunks):
 		for idx2, q_url in enumerate(jumbled_urls):
 			video_ids = []
-			
+
 			try:
 				loc = url_chunks[idx].index(q_url)
 				(movie_name,track_index) = key_chunks[idx][loc]
