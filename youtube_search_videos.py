@@ -110,30 +110,35 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 	errs = []
 	for idx,jumbled_urls in enumerate(jumbled_url_chunks):
 		for idx2, q_url in enumerate(jumbled_urls):
-			loc = url_chunks[idx].index(q_url)
-			(movie_name,track_index) = key_chunks[idx][loc]
-
-			resp = response_chunks[idx][idx2].json()
 			video_ids = []
-			# print resp['items'][0]['id']
-
-			for itm in resp['items']:
-				# print itm
-				# print type(itm)
-				total_video_ids.append(itm['id']['videoId'])
-				video_ids.append(itm['id']['videoId'])
-				# for id_info in itm:
-					# print id_info
-					# id_info = json.loads(id_info)
-					# print type(id_info)
 			
-			# if len(video_ids) == 0:
-				# print movie_name
-				# print track_index
-				# print movie_song_names[movie_name]['track_list'][track_index]['track_name']
-				# print movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['url']
-				# print q_url
-				# errs.append(response_chunks[idx][idx2])
+			try:
+				loc = url_chunks[idx].index(q_url)
+				(movie_name,track_index) = key_chunks[idx][loc]
+
+				resp = response_chunks[idx][idx2].json()
+				
+				# print resp['items'][0]['id']
+
+				for itm in resp['items']:
+					# print itm
+					# print type(itm)
+					total_video_ids.append(itm['id']['videoId'])
+					video_ids.append(itm['id']['videoId'])
+					# for id_info in itm:
+						# print id_info
+						# id_info = json.loads(id_info)
+						# print type(id_info)
+				
+				# if len(video_ids) == 0:
+					# print movie_name
+					# print track_index
+					# print movie_song_names[movie_name]['track_list'][track_index]['track_name']
+					# print movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['url']
+					# print q_url
+					# errs.append(response_chunks[idx][idx2])
+			except:
+				pass
 
 			movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['video_ids'] = video_ids
 
