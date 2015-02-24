@@ -39,13 +39,14 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1):
 				# print rw[1].decode('utf-8')
 				# print rw[1]
 				# print track['track_name']
-				key_list.append((key,idx2))
+				
 				# track_index_list.append()
 				if track['track_name'] != None:
 					url = youtube_get_video + urllib.quote_plus(track['track_name'].encode('utf8'))
 					movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)] = {}
 					movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)]['url'] = [url]
 					url_list.append(url)
+					key_list.append((key,idx2))
 
 				else:
 					movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)] = {}
@@ -73,7 +74,7 @@ def url_constructor_videoIds(in_file = 'consolidated_song_names_with_videoIds.js
 				# print rw[1].decode('utf-8')
 				# print rw[1]
 				# print track['track_name']
-				key_list.append((key,idx2))
+				
 				# track_index_list.append()
 				url = youtube_get_video_duration
 				if track['track_name'] != None:
@@ -82,12 +83,13 @@ def url_constructor_videoIds(in_file = 'consolidated_song_names_with_videoIds.js
 					# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)] = {}
 					# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)]['url'] = [url]
 					url_list.append(url)
+					key_list.append((key,idx2))
 
-				else:
+				# else:
+					# url_list.append
 					# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)] = {}
 					# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)]['url'] = ['']
 				# artist_ids.append(rw[0])
-
 	return (url_list, key_list, movie_song_names)
 
 
@@ -108,6 +110,7 @@ def async_get(url_list,idx):
 	# print len()
 
 	for response in requests.swarm(url_list, maintainOrder = False):
+		
 		responses.append(response)
 		jumbled_urls.append(response.url)
 		# print response.url
