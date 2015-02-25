@@ -244,33 +244,33 @@ def search_videos_durations(in_file = 'consolidated_song_names_with_videoIds.jso
 		for idx2, q_url in enumerate(jumbled_urls):
 			video_details = []
 
-			# try:
-			loc = url_chunks[idx].index(q_url)
-			(movie_name,track_index) = key_chunks[idx][loc]
+			try:
+				loc = url_chunks[idx].index(q_url)
+				(movie_name,track_index) = key_chunks[idx][loc]
 
-			resp = response_chunks[idx][idx2].json()
-			
-			# print resp['items'][0]['id']
-
-			for itm in resp['items']:
-				# print itm
-				# print type(itm)
-				# total_video_content_details.append(itm['contentDetails'])
-				video_details.append(itm['contentDetails'])
-					# for id_info in itm:
-						# print id_info
-						# id_info = json.loads(id_info)
-						# print type(id_info)
+				resp = response_chunks[idx][idx2].json()
 				
-				# if len(video_ids) == 0:
-					# print movie_name
-					# print track_index
-					# print movie_song_names[movie_name]['track_list'][track_index]['track_name']
-					# print movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['url']
-					# print q_url
-					# errs.append(response_chunks[idx][idx2])
-			# except:
-			# 	pass
+				# print resp['items'][0]['id']
+
+				for itm in resp['items']:
+					# print itm
+					# print type(itm)
+					# total_video_content_details.append(itm['contentDetails'])
+					video_details.append(itm['contentDetails'])
+						# for id_info in itm:
+							# print id_info
+							# id_info = json.loads(id_info)
+							# print type(id_info)
+					
+					# if len(video_ids) == 0:
+						# print movie_name
+						# print track_index
+						# print movie_song_names[movie_name]['track_list'][track_index]['track_name']
+						# print movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['url']
+						# print q_url
+						# errs.append(response_chunks[idx][idx2])
+			except:
+				pass
 
 			movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['video_details'] = video_details
 
