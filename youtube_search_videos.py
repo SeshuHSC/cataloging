@@ -113,13 +113,16 @@ def async_get(url_list,idx):
 	print idx*len(url_list)
 	# print idx
 	# print len()
-
+	# print url_list
+	# try:
 	for response in requests.swarm(url_list, maintainOrder = False):
-		try:
-			responses.append(response)
-			jumbled_urls.append(response.url)
-		except:
-			continue
+		# print response.url
+		responses.append(response)
+		jumbled_urls.append(response.url)
+	# except:
+	# 	print url_list
+		# except:
+			# continue
 		# print response.url
 
 	return responses, jumbled_urls
