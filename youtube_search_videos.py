@@ -78,12 +78,17 @@ def url_constructor_videoIds(in_file = 'consolidated_song_names_with_videoIds.js
 				# track_index_list.append()
 				url = youtube_get_video_duration
 				if track['track_name'] != None:
-					for vid in track['search_type_'+ str(search_type)]['video_ids']:
-						url += vid + ','
-					# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)] = {}
-					# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)]['url'] = [url]
-					url_list.append(url)
-					key_list.append((key,idx2))
+					# print key
+					# print track['track_name']
+					try:
+						for vid in track['search_type_'+ str(search_type)]['video_ids']:
+							url += vid + ','
+						# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)] = {}
+						# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)]['url'] = [url]
+						url_list.append(url)
+						key_list.append((key,idx2))
+					except:
+						pass
 
 				# else:
 					# url_list.append
@@ -157,20 +162,22 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 	for idx,jumbled_urls in enumerate(jumbled_url_chunks):
 		for idx2, q_url in enumerate(jumbled_urls):
 			video_ids = []
+			video_infos = []
 
-			try:
-				loc = url_chunks[idx].index(q_url)
-				(movie_name,track_index) = key_chunks[idx][loc]
+			# try:
+			loc = url_chunks[idx].index(q_url)
+			(movie_name,track_index) = key_chunks[idx][loc]
 
-				resp = response_chunks[idx][idx2].json()
-				
-				# print resp['items'][0]['id']
+			resp = response_chunks[idx][idx2].json()
+			
+			# print resp['items'][0]['id']
 
-				for itm in resp['items']:
-					# print itm
-					# print type(itm)
-					total_video_ids.append(itm['id']['videoId'])
-					video_ids.append(itm['id']['videoId'])
+			for itm in resp['items']:
+				# print itm
+				# print type(itm)
+				# total_video_ids.append(itm['id']['videoId'])
+				video_ids.append(itm['id']['videoId'])
+				video_infos.append(itm['snippet'])
 					# for id_info in itm:
 						# print id_info
 						# id_info = json.loads(id_info)
@@ -183,10 +190,11 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 					# print movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['url']
 					# print q_url
 					# errs.append(response_chunks[idx][idx2])
-			except:
-				pass
+			# except:
+			# 	pass
 
 			movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['video_ids'] = video_ids
+			movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['video_infos'] = video_infos
 
 	out_file = in_file.replace('.json','_with_videoIds.json')
 	out_file_pointer = open(out_file,'wb')
@@ -197,7 +205,7 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 def search_videos_durations(in_file = 'consolidated_song_names_with_videoIds.json', chunk_size = 800, search_type = 1 ):
 	""" Search youtube for artist names and select channel with most subscribers only if it has more than min_subscribers 
 	"""
-	(url_list,key_list,movie_song_names) = url_constructor(in_file,1)
+	(url_list,key_list,movie_song_names) = url_constructor_videoIds(in_file,1)
 
 	tracks_info = zip(url_list,key_list)
 
@@ -226,26 +234,26 @@ def search_videos_durations(in_file = 'consolidated_song_names_with_videoIds.jso
 		jumbled_url_chunks.append(each[1])
 		response_chunks.append(each[0])
 
-	total_video_content_details = []
+	# total_video_content_details = []
 	errs = []
 
 	for idx,jumbled_urls in enumerate(jumbled_url_chunks):
 		for idx2, q_url in enumerate(jumbled_urls):
 			video_details = []
 
-			try:
-				loc = url_chunks[idx].index(q_url)
-				(movie_name,track_index) = key_chunks[idx][loc]
+			# try:
+			loc = url_chunks[idx].index(q_url)
+			(movie_name,track_index) = key_chunks[idx][loc]
 
-				resp = response_chunks[idx][idx2].json()
-				
-				# print resp['items'][0]['id']
+			resp = response_chunks[idx][idx2].json()
+			
+			# print resp['items'][0]['id']
 
-				for itm in resp['items']:
-					# print itm
-					# print type(itm)
-					total_video_content_details.append(itm['contentDetails'])
-					video_details.append(itm['contentDetails'])
+			for itm in resp['items']:
+				# print itm
+				# print type(itm)
+				# total_video_content_details.append(itm['contentDetails'])
+				video_details.append(itm['contentDetails'])
 					# for id_info in itm:
 						# print id_info
 						# id_info = json.loads(id_info)
@@ -258,8 +266,8 @@ def search_videos_durations(in_file = 'consolidated_song_names_with_videoIds.jso
 					# print movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['url']
 					# print q_url
 					# errs.append(response_chunks[idx][idx2])
-			except:
-				pass
+			# except:
+			# 	pass
 
 			movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['video_details'] = video_details
 
