@@ -167,20 +167,20 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 			video_ids = []
 			video_infos = []
 
-			# try:
-			loc = url_chunks[idx].index(q_url)
-			(movie_name,track_index) = key_chunks[idx][loc]
+			try:
+				loc = url_chunks[idx].index(q_url)
+				(movie_name,track_index) = key_chunks[idx][loc]
 
-			resp = response_chunks[idx][idx2].json()
-			
-			# print resp['items'][0]['id']
+				resp = response_chunks[idx][idx2].json()
+				
+				# print resp['items'][0]['id']
 
-			for itm in resp['items']:
-				# print itm
-				# print type(itm)
-				# total_video_ids.append(itm['id']['videoId'])
-				video_ids.append(itm['id']['videoId'])
-				video_infos.append(itm['snippet'])
+				for itm in resp['items']:
+					# print itm
+					# print type(itm)
+					# total_video_ids.append(itm['id']['videoId'])
+					video_ids.append(itm['id']['videoId'])
+					video_infos.append(itm['snippet'])
 					# for id_info in itm:
 						# print id_info
 						# id_info = json.loads(id_info)
@@ -193,8 +193,8 @@ def search_videos(in_file = 'consolidated_song_names.json', chunk_size = 800, se
 					# print movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['url']
 					# print q_url
 					# errs.append(response_chunks[idx][idx2])
-			# except:
-			# 	pass
+			except:
+				pass
 
 			movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['video_ids'] = video_ids
 			movie_song_names[movie_name]['track_list'][track_index]['search_type_'+ str(search_type)]['video_infos'] = video_infos
