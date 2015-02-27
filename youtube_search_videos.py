@@ -99,6 +99,7 @@ def url_constructor_videoIds(in_file = 'consolidated_song_names_with_videoIds.js
 				# artist_ids.append(rw[0])
 	return (url_list, key_list, movie_song_names)
 
+
 def url_constructor_playlist_search(in_file = 'consolidated_song_names.json', search_type = 2):
 	""" Construct search urls for tracks. 
 		search_type = 1 : Search by track_name
@@ -148,6 +149,7 @@ def url_constructor_playlist_search(in_file = 'consolidated_song_names.json', se
 			# 		# movie_song_names[key]['track_list'][idx2]['search_type_'+ str(search_type)]['url'] = ['']
 				# artist_ids.append(rw[0])
 	return (url_list, key_list, movie_song_names)
+
 
 
 def list_chunks(l, n):
@@ -329,6 +331,7 @@ def search_videos_durations(in_file = 'consolidated_song_names_with_videoIds.jso
 	out_file_pointer = open(out_file,'wb')
 	json.dump(movie_song_names,out_file_pointer)
 	return 'done'
+
 
 
 def search_playlists(in_file = 'consolidated_song_names.json', chunk_size = 800, search_type = 2 ):
