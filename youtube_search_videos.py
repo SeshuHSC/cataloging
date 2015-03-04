@@ -115,9 +115,17 @@ def url_constructor_playlist_search(in_file = 'consolidated_song_names.json', se
 	if search_type == 2:
 		for idx,key in enumerate(movie_song_names.keys()):
 			# print key
-			yr = dateutil.parser.parse(movie_song_names[key]['release_date'])
-			url = youtube_get_playlist + urllib.quote_plus(movie_song_names[key]['album_name'].encode('utf8'))
-			movie_song_names[key]['search_type_'+ str(search_type)]['url'] = url
+			# print movie_song_names[key]['release_date']
+			# if movie_song_names[key]['release_date'] != '0000-00-00':
+			# 	yr = (dateutil.parser.parse(movie_song_names[key]['release_date'])).year
+			# else:
+			# 	yr = ''
+			yr = movie_song_names[key]['release_date'].split('-')[0]
+			if yr == '0000':
+				yr = ''
+			print yr
+			url = youtube_get_playlist + urllib.quote_plus(movie_song_names[key]['album_name'].encode('utf8') +' '+ str(yr)+ ' all songs')
+			movie_song_names[key]['search_type_'+ str(search_type)] = {'url': url}
 			key_list.append(key)
 			url_list.append(url)
 
