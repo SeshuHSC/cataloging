@@ -51,7 +51,9 @@ def write_mp3(mp3, fullpath=None):
             	output.write(chunk)
 
 def bulk_resolver():
-	for idx,movi in enumerate(k):
+    k = json.load(open('SongsPKData.json'))
+    movs = {}
+    for idx,movi in enumerate(k):
 	    nam = movi.keys()[0]
 	    movs[nam] = []
 	    for ech in movi[nam]:
@@ -60,7 +62,15 @@ def bulk_resolver():
 	        except:
 	            movs[nam].append((ech,''))
 	    print idx
+	    # print movs[nam]
+    json.dump(movs,open('songs_pk_resolved.json','wb'))
 
 
-def download_all_songs(input_file = '', chunk_size = '20'):
+def url_resolver(url):
+    opener = urllib2.build_opener()
+    opener.addheaders = [('User-agent', 'Mozilla/5.0')]
+    res = opener.open(urllib2.Request(url))  # Resolve the redirects and gets the song Object
+    return res.geturl()
+
+# def download_all_songs(input_file = '', chunk_size = '20'):
 	
