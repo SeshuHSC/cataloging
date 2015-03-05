@@ -63,7 +63,8 @@ def bulk_resolver():
 	            movs[nam].append((ech,''))
 	    print idx
 	    # print movs[nam]
-    json.dump(movs,open('songs_pk_resolved.json','wb'))
+    # json.dump(movs,open('songs_pk_resolved.json','wb'))
+    return movs
 
 
 def url_resolver(url):
