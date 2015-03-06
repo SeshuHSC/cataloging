@@ -101,10 +101,10 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, d
 	input_pointer = open(in_file,'rb')
 	movie_song_names = json.load(input_pointer, encoding = 'ISO-8859-1')
 
-	try:
-		earlier_download_details = json.load(open(download_details), encoding = 'ISO-8859-1')
-	except:
-		earlier_download_details = {}
+	# try:
+	# 	earlier_download_details = json.load(open(download_details), encoding = 'ISO-8859-1')
+	# except:
+	# 	earlier_download_details = {}
 
 	url_list = []
 	# artist_ids = []
@@ -122,11 +122,12 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, d
 			
 			# track_index_list.append()
 			if track != [] and track[1] != '':
-				downloaded = False
+				# downloaded = False
 				movie_path, final_path = get_full_song_path(key, track[1], out_dir)
-				if earlier_download_details.has_key(track[1]):
-					downloaded = earlier_download_details[track[1]]['downloaded']
-				if not downloaded:
+				# if earlier_download_details.has_key(track[1]):
+				# 	downloaded = earlier_download_details[track[1]]['downloaded']
+				# if not downloaded:
+				if final_path[-3:] in ['wav','mp3'] and !(os.path.isfile(final_path)):
 					jumbled_urls_dict[track[1]] = {}
 					jumbled_urls_dict[track[1]]['details'] = (key,idx2)
 					url_list.append(track[1])
