@@ -127,7 +127,7 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, d
 				# if earlier_download_details.has_key(track[1]):
 				# 	downloaded = earlier_download_details[track[1]]['downloaded']
 				# if not downloaded:
-				if final_path[-3:] in ['wav','mp3'] and !(os.path.isfile(final_path)):
+				if final_path[-3:] in ['wav','mp3'] and not (os.path.isfile(final_path)):
 					jumbled_urls_dict[track[1]] = {}
 					jumbled_urls_dict[track[1]]['details'] = (key,idx2)
 					url_list.append(track[1])
