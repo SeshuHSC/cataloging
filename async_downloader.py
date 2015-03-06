@@ -17,6 +17,7 @@ jumbled_urls_dict = {}
 requests = Requests()
 
 def get_full_song_path(movie_url, song_url, out_dir = '/home/varun01124/code/bollywoodSongsGather/songs'):
+	
 	movie_name = movie_url.split('/')[-1][:-5]
 	movie_path = os.path.join(out_dir,movie_name)
 	song_name = song_url.split('/')[-1]
@@ -45,6 +46,7 @@ def write_mp3(mp3, fullpath=None):
             	output.write(chunk)
 
 def check_if_downloaded(url, out_dir):
+
 	movie_url, song_num = jumbled_urls_dict[url]['details']
 	movie_path, final_path = get_full_song_path(movie_url, url, out_dir)
 	return os.path.isfile(final_path), final_path
