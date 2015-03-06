@@ -1,0 +1,662 @@
+{
+    "http://sound22.mp3slash.net/indian/jwar_bhata1973/jwarbhata06(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jwar_bhata_1973.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jwar_bhata_1973/jwarbhata06(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha01(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha01(songs.pk).mp3"
+    },
+    "http://sound8.mp3slash.net/indian/agreement(1980)/agreement1(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["agreement.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/agreement/agreement1(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra09(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 8],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra09(www.songs.pk).mp3"
+    },
+    "http://sound24.mp3slash.net/indian/gharaurbazaar1986/ghar-aur-bazaar01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/ghar_aur_bazaar_1986_mp3_songs.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ghar_aur_bazaar_1986_mp3_songs/ghar-aur-bazaar01(www.songs.pk).mp3"
+    },
+    "http://sound10.mp3slash.net/indian/mere_huzoor_1968/mere_huzoor5(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/mere_huzoor_1968.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/mere_huzoor_1968/mere_huzoor5(www.songs.pk).mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama01(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)8(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 7],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)8(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/bahubeti1965/bahubeti07(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/bahu_beti_1965.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/bahu_beti_1965/bahubeti07(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha05(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha05(songs.pk).mp3"
+    },
+    "http://sound30.mp3slash.net/indian/gogoagone/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2004%20-%20Khushamdeed.mp3": {
+        "downloaded": false,
+        "details": ["indian/go_goa_gone_2013_mp3_songs.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/go_goa_gone_2013_mp3_songs/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2004%20-%20Khushamdeed.mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra05(www.songs.pk).mp3"
+    },
+    "http://sound28.mp3slash.net/indian/do_waqt_ki_roti1986/do-waqt-ki-roti04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/do_waqt_ki_roti_1986_mp3_songs.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/do_waqt_ki_roti_1986_mp3_songs/do-waqt-ki-roti04(www.songs.pk).mp3"
+    },
+    "http://soundt.mp3slash.net/indian/chamatkar1992/chamatkar6(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["chamatkaar.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/chamatkaar/chamatkar6(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha02(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha02(songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)6(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)6(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)5(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)5(www.songs.pk).mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama04(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha10(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 9],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha10(songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar1(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar1(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra04(www.songs.pk).mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama07(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama07(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/jwar_bhata1973/jwarbhata05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jwar_bhata_1973.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jwar_bhata_1973/jwarbhata05(www.songs.pk).mp3"
+    },
+    "http://sound8.mp3slash.net/indian/agreement(1980)/agreement3(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["agreement.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/agreement/agreement3(www.songs.pk).mp3"
+    },
+    "http://sound24.mp3slash.net/indian/gharaurbazaar1986/ghar-aur-bazaar05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/ghar_aur_bazaar_1986_mp3_songs.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ghar_aur_bazaar_1986_mp3_songs/ghar-aur-bazaar05(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar7(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar7(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar5(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar5(www.songs.pk).mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama05(www.songs.pk).mp3"
+    },
+    "http://sound8.mp3slash.net/indian/agreement(1980)/agreement2(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["agreement.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/agreement/agreement2(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/jwar_bhata1973/jwarbhata02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jwar_bhata_1973.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jwar_bhata_1973/jwarbhata02(www.songs.pk).mp3"
+    },
+    "http://sound24.mp3slash.net/indian/gharaurbazaar1986/ghar-aur-bazaar02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/ghar_aur_bazaar_1986_mp3_songs.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ghar_aur_bazaar_1986_mp3_songs/ghar-aur-bazaar02(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2008%20-%20Teri%20Nazar%20Se%20Meri%20Nazar.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 7],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2008%20-%20Teri%20Nazar%20Se%20Meri%20Nazar.mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha11(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 10],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha11(songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada06(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada06(www.songs.pk).mp3"
+    },
+    "http://sound24.mp3slash.net/indian/gharaurbazaar1986/ghar-aur-bazaar03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/ghar_aur_bazaar_1986_mp3_songs.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ghar_aur_bazaar_1986_mp3_songs/ghar-aur-bazaar03(www.songs.pk).mp3"
+    },
+    "http://sound10.mp3slash.net/indian/mere_huzoor_1968/mere_huzoor4(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/mere_huzoor_1968.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/mere_huzoor_1968/mere_huzoor4(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/bahubeti1965/bahubeti03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/bahu_beti_1965.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/bahu_beti_1965/bahubeti03(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha04(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha04(songs.pk).mp3"
+    },
+    "http://sound8.mp3slash.net/indian/agreement(1980)/agreement4(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["agreement.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/agreement/agreement4(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra07(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra07(www.songs.pk).mp3"
+    },
+    "http://sound30.mp3slash.net/indian/gogoagone/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2005%20-%20I%20Keel%20Ded%20Peepul%20(Boris%20Mix).mp3": {
+        "downloaded": false,
+        "details": ["indian/go_goa_gone_2013_mp3_songs.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/go_goa_gone_2013_mp3_songs/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2005%20-%20I%20Keel%20Ded%20Peepul%20(Boris%20Mix).mp3"
+    },
+    "http://sound19.mp3slash.net/indian/jeenanahinbintere1995/jeena-nahin-bin-tere01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jeena_nahin_bin_tere1995.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jeena_nahin_bin_tere1995/jeena-nahin-bin-tere01(www.songs.pk).mp3"
+    },
+    "http://soundt.mp3slash.net/indian/chamatkar1992/chamatkar5(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["chamatkaar.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/chamatkaar/chamatkar5(www.songs.pk).mp3"
+    },
+    "http://sound28.mp3slash.net/indian/do_waqt_ki_roti1986/do-waqt-ki-roti03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/do_waqt_ki_roti_1986_mp3_songs.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/do_waqt_ki_roti_1986_mp3_songs/do-waqt-ki-roti03(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2002%20-%20Aaja%20Aaja%20Meri%20Jaan.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2002%20-%20Aaja%20Aaja%20Meri%20Jaan.mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)1(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)1(www.songs.pk).mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama06(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama06(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada04(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar4(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar4(www.songs.pk).mp3"
+    },
+    "http://sound14.mp3slash.net/indian/aakhreeraasta1984/aakhreeraasta03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/aakhree_raasta1984.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aakhree_raasta1984/aakhreeraasta03(www.songs.pk).mp3"
+    },
+    "http://soundt.mp3slash.net/indian/chamatkar1992/chamatkar4(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["chamatkaar.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/chamatkaar/chamatkar4(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2007%20-%20Jhanjhara%20Layade%20Mere%20Perran%20Wich%20Paade.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2007%20-%20Jhanjhara%20Layade%20Mere%20Perran%20Wich%20Paade.mp3"
+    },
+    "http://sound22.mp3slash.net/indian/bahubeti1965/bahubeti01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/bahu_beti_1965.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/bahu_beti_1965/bahubeti01(www.songs.pk).mp3"
+    },
+    "http://sound19.mp3slash.net/indian/jeenanahinbintere1995/jeena-nahin-bin-tere05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jeena_nahin_bin_tere1995.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jeena_nahin_bin_tere1995/jeena-nahin-bin-tere05(www.songs.pk).mp3"
+    },
+    "http://sound19.mp3slash.net/indian/jeenanahinbintere1995/jeena-nahin-bin-tere07(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jeena_nahin_bin_tere1995.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jeena_nahin_bin_tere1995/jeena-nahin-bin-tere07(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/woh_7_din_1983/woh_7_din4(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["woh_7_din_1983.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/woh_7_din_1983/woh_7_din4(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2003%20-%20Shehar%20Ki%20Galiyon%20Mein%20Charcha%20Hai%20Aam.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2003%20-%20Shehar%20Ki%20Galiyon%20Mein%20Charcha%20Hai%20Aam.mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar3(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar3(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2009%20-%20O%20Aasman%20Wale%20Jameen%20Par%20Utar%20Ke%20Dekh.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 8],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2009%20-%20O%20Aasman%20Wale%20Jameen%20Par%20Utar%20Ke%20Dekh.mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)4(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)4(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar6(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar6(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)12(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 11],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)12(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2005%20-%20Julie%20Julie%20Tu%20Ladki%20Nahin%20Mamooli.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2005%20-%20Julie%20Julie%20Tu%20Ladki%20Nahin%20Mamooli.mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar8(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 7],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar8(www.songs.pk).mp3"
+    },
+    "http://sound14.mp3slash.net/indian/aakhreeraasta1984/aakhreeraasta01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/aakhree_raasta1984.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aakhree_raasta1984/aakhreeraasta01(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/woh_7_din_1983/woh_7_din6(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["woh_7_din_1983.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/woh_7_din_1983/woh_7_din6(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)7(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)7(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada09(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 8],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada09(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra06(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra06(www.songs.pk).mp3"
+    },
+    "http://sound28.mp3slash.net/indian/do_waqt_ki_roti1986/do-waqt-ki-roti01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/do_waqt_ki_roti_1986_mp3_songs.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/do_waqt_ki_roti_1986_mp3_songs/do-waqt-ki-roti01(www.songs.pk).mp3"
+    },
+    "http://sound10.mp3slash.net/indian/mere_huzoor_1968/mere_huzoor3(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/mere_huzoor_1968.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/mere_huzoor_1968/mere_huzoor3(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)10(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 9],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)10(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra01(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/jwar_bhata1973/jwarbhata03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jwar_bhata_1973.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jwar_bhata_1973/jwarbhata03(www.songs.pk).mp3"
+    },
+    "http://sound30.mp3slash.net/indian/gogoagone/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2003%20-%20Babaji%20Ki%20Booti.mp3": {
+        "downloaded": false,
+        "details": ["indian/go_goa_gone_2013_mp3_songs.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/go_goa_gone_2013_mp3_songs/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2003%20-%20Babaji%20Ki%20Booti.mp3"
+    },
+    "http://sound9.mp3slash.net/indian/woh_7_din_1983/woh_7_din5(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["woh_7_din_1983.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/woh_7_din_1983/woh_7_din5(www.songs.pk).mp3"
+    },
+    "http://sound19.mp3slash.net/indian/jeenanahinbintere1995/jeena-nahin-bin-tere03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jeena_nahin_bin_tere1995.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jeena_nahin_bin_tere1995/jeena-nahin-bin-tere03(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar2(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar2(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/woh_7_din_1983/woh_7_din3(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["woh_7_din_1983.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/woh_7_din_1983/woh_7_din3(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/woh_7_din_1983/woh_7_din1(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["woh_7_din_1983.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/woh_7_din_1983/woh_7_din1(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2001%20-%20Ishq%20Mein%20Hum%20Tumhein%20Kya%20Batayein.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2001%20-%20Ishq%20Mein%20Hum%20Tumhein%20Kya%20Batayein.mp3"
+    },
+    "http://sound22.mp3slash.net/indian/bahubeti1965/bahubeti06(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/bahu_beti_1965.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/bahu_beti_1965/bahubeti06(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha07(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha07(songs.pk).mp3"
+    },
+    "http://soundt.mp3slash.net/indian/chamatkar1992/chamatkar1(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["chamatkaar.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/chamatkaar/chamatkar1(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada03(www.songs.pk).mp3"
+    },
+    "http://soundt.mp3slash.net/indian/chamatkar1992/chamatkar3(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["chamatkaar.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/chamatkaar/chamatkar3(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada01(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/upkar_1967/upkar9(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["upkar_1967.html", 8],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/upkar_1967/upkar9(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2010%20-%20Pagal%20Dil%20Mera%20Tumse%20Ye%20Keh%20Raha.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 9],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2010%20-%20Pagal%20Dil%20Mera%20Tumse%20Ye%20Keh%20Raha.mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada05(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/bahubeti1965/bahubeti05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/bahu_beti_1965.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/bahu_beti_1965/bahubeti05(www.songs.pk).mp3"
+    },
+    "http://sound10.mp3slash.net/indian/mere_huzoor_1968/mere_huzoor6(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/mere_huzoor_1968.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/mere_huzoor_1968/mere_huzoor6(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/bahubeti1965/bahubeti02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/bahu_beti_1965.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/bahu_beti_1965/bahubeti02(www.songs.pk).mp3"
+    },
+    "http://sound28.mp3slash.net/indian/do_waqt_ki_roti1986/do-waqt-ki-roti05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/do_waqt_ki_roti_1986_mp3_songs.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/do_waqt_ki_roti_1986_mp3_songs/do-waqt-ki-roti05(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2011%20-%20Baichain%20Kar%20Diya%20Hai.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 10],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2011%20-%20Baichain%20Kar%20Diya%20Hai.mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama03(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada10(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 9],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada10(www.songs.pk).mp3"
+    },
+    "http://sound19.mp3slash.net/indian/jeenanahinbintere1995/jeena-nahin-bin-tere06(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jeena_nahin_bin_tere1995.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jeena_nahin_bin_tere1995/jeena-nahin-bin-tere06(www.songs.pk).mp3"
+    },
+    "http://sound14.mp3slash.net/indian/aakhreeraasta1984/aakhreeraasta04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/aakhree_raasta1984.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aakhree_raasta1984/aakhreeraasta04(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/jwar_bhata1973/jwarbhata04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jwar_bhata_1973.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jwar_bhata_1973/jwarbhata04(www.songs.pk).mp3"
+    },
+    "http://sound24.mp3slash.net/indian/gharaurbazaar1986/ghar-aur-bazaar04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/ghar_aur_bazaar_1986_mp3_songs.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ghar_aur_bazaar_1986_mp3_songs/ghar-aur-bazaar04(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada08(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 7],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada08(www.songs.pk).mp3"
+    },
+    "http://sound30.mp3slash.net/indian/gogoagone/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2002%20-%20Khoon%20Choos%20Le.mp3": {
+        "downloaded": false,
+        "details": ["indian/go_goa_gone_2013_mp3_songs.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/go_goa_gone_2013_mp3_songs/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2002%20-%20Khoon%20Choos%20Le.mp3"
+    },
+    "http://sound14.mp3slash.net/indian/aakhreeraasta1984/aakhreeraasta05(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/aakhree_raasta1984.html", 4],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aakhree_raasta1984/aakhreeraasta05(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/woh_7_din_1983/woh_7_din2(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["woh_7_din_1983.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/woh_7_din_1983/woh_7_din2(www.songs.pk).mp3"
+    },
+    "http://sound19.mp3slash.net/indian/jeenanahinbintere1995/jeena-nahin-bin-tere04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jeena_nahin_bin_tere1995.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jeena_nahin_bin_tere1995/jeena-nahin-bin-tere04(www.songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/bahubeti1965/bahubeti04(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/bahu_beti_1965.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/bahu_beti_1965/bahubeti04(www.songs.pk).mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama08(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 7],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama08(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha06(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 5],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha06(songs.pk).mp3"
+    },
+    "http://sound30.mp3slash.net/indian/gogoagone/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2001%20-%20Slowly%20Slowly.mp3": {
+        "downloaded": false,
+        "details": ["indian/go_goa_gone_2013_mp3_songs.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/go_goa_gone_2013_mp3_songs/[Songs.PK]%20Go%20Goa%20Gone%20%20-%2001%20-%20Slowly%20Slowly.mp3"
+    },
+    "http://sound10.mp3slash.net/indian/mere_huzoor_1968/mere_huzoor1(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/mere_huzoor_1968.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/mere_huzoor_1968/mere_huzoor1(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha03(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha03(songs.pk).mp3"
+    },
+    "http://sound22.mp3slash.net/indian/jwar_bhata1973/jwarbhata01(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jwar_bhata_1973.html", 0],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jwar_bhata_1973/jwarbhata01(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra03(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra03(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra08(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 7],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra08(www.songs.pk).mp3"
+    },
+    "http://sound19.mp3slash.net/indian/jeenanahinbintere1995/jeena-nahin-bin-tere02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/jeena_nahin_bin_tere1995.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/jeena_nahin_bin_tere1995/jeena-nahin-bin-tere02(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)2(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)2(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada02(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)9(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 8],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)9(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/aaja_meri_jaan/[Songs.PK]%2004%20-%20Nawal%20Pada%20Haan%20Pada.mp3": {
+        "downloaded": false,
+        "details": ["aaja_meri_jaan.html", 3],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aaja_meri_jaan/[Songs.PK]%2004%20-%20Nawal%20Pada%20Haan%20Pada.mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)3(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 2],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)3(www.songs.pk).mp3"
+    },
+    "http://sound23.mp3slash.net/indian/pyaarkapunchnama/pyaarkapunchnama02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/pyaar_ka_punchnama_2011.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/pyaar_ka_punchnama_2011/pyaarkapunchnama02(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/ada/ada07(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["ada_ar_rahman.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/ada_ar_rahman/ada07(www.songs.pk).mp3"
+    },
+    "http://sound12.mp3slash.net/indian/sehra1963/sehra02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/sehra_1963.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/sehra_1963/sehra02(www.songs.pk).mp3"
+    },
+    "http://sound10.mp3slash.net/indian/mere_huzoor_1968/mere_huzoor7(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/mere_huzoor_1968.html", 6],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/mere_huzoor_1968/mere_huzoor7(www.songs.pk).mp3"
+    },
+    "http://sound28.mp3slash.net/indian/do_waqt_ki_roti1986/do-waqt-ki-roti02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/do_waqt_ki_roti_1986_mp3_songs.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/do_waqt_ki_roti_1986_mp3_songs/do-waqt-ki-roti02(www.songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha09(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 8],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha09(songs.pk).mp3"
+    },
+    "http://sound1.mp3slash.net/indian/naksha/naksha08(songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["naksha.html", 7],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/naksha/naksha08(songs.pk).mp3"
+    },
+    "http://sound10.mp3slash.net/indian/mere_huzoor_1968/mere_huzoor2(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/mere_huzoor_1968.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/mere_huzoor_1968/mere_huzoor2(www.songs.pk).mp3"
+    },
+    "http://soundt.mp3slash.net/indian/chamatkar1992/chamatkar2(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["chamatkaar.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/chamatkaar/chamatkar2(www.songs.pk).mp3"
+    },
+    "http://sound9.mp3slash.net/indian/amar_(1954)/amar_(1954)11(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["amar_(1954).html", 10],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/amar_(1954)/amar_(1954)11(www.songs.pk).mp3"
+    },
+    "http://sound14.mp3slash.net/indian/aakhreeraasta1984/aakhreeraasta02(www.songs.pk).mp3": {
+        "downloaded": false,
+        "details": ["indian/aakhree_raasta1984.html", 1],
+        "location": "/home/varun01124/code/bollywoodSongsGather/songs/aakhree_raasta1984/aakhreeraasta02(www.songs.pk).mp3"
+    }
+}
