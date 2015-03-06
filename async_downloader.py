@@ -141,7 +141,7 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, d
 def download_songs(in_file = 'songsPk_resolved.json',out_dir = '/home/varun01124/code/bollywoodSongsGather/songs', chunk_size = 20, search_type = 1 ):
 	""" Search youtube for artist names and select channel with most subscribers only if it has more than min_subscribers 
 	"""
-	(url_list,key_list,movie_song_names) = url_constructor(in_file,1)
+	(url_list,key_list,movie_song_names) = url_constructor(in_file,1,'url_location_map.json', out_dir)
 
 	# print url_list
 	tracks_info = zip(url_list,key_list)
