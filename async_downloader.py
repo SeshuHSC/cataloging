@@ -94,7 +94,7 @@ def async_get(url_list, idx, out_dir):
 
 
 
-def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, download_details = 'url_location_map.json', out_dir):
+def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, download_details = 'url_location_map.json', out_dir = '/asdasd'):
 	""" Construct search urls for tracks. 
 		search_type = 1 : Search by track_name
 	"""
