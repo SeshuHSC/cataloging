@@ -94,7 +94,7 @@ def async_get(url_list, idx, out_dir):
 
 
 
-def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, download_details = 'url_location_map.json'):
+def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, download_details = 'url_location_map.json', out_dir):
 	""" Construct search urls for tracks. 
 		search_type = 1 : Search by track_name
 	"""
@@ -123,6 +123,7 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, d
 			# track_index_list.append()
 			if track != [] and track[1] != '':
 				downloaded = False
+				movie_path, final_path = get_full_song_path(key, track[1], out_dir)
 				if earlier_download_details.has_key(track[1]):
 					downloaded = earlier_download_details[track[1]]['downloaded']
 				if not downloaded:
