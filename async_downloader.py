@@ -90,7 +90,8 @@ def async_get(url_list, idx, out_dir):
 
 	store_response_chunk_disk(responses, jumbled_urls, out_dir)
 
-	return responses, jumbled_urls
+	# return responses, jumbled_urls
+	return jumbled_urls
 
 
 
@@ -166,7 +167,7 @@ def download_songs(in_file = 'songsPk_resolved.json',out_dir = '/home/varun01124
 	# json.dump(jumbled_urls_dict, open('url_location_map.json','wb'))
 
 	jumbled_url_chunks = []
-	response_chunks = []
+	# response_chunks = []
 
 	for each in results:
 		jumbled_url_chunks.append(each[1])
