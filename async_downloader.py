@@ -90,21 +90,22 @@ def async_get(url_list, idx, out_dir):
 
 	store_response_chunk_disk(responses, jumbled_urls, out_dir)
 
-	return responses, jumbled_urls
+	# return responses, jumbled_urls
+	return jumbled_urls
 
 
 
-def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, download_details = 'url_location_map.json', out_dir):
+def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, download_details = 'url_location_map.json', out_dir = '/asdasd'):
 	""" Construct search urls for tracks. 
 		search_type = 1 : Search by track_name
 	"""
 	input_pointer = open(in_file,'rb')
 	movie_song_names = json.load(input_pointer, encoding = 'ISO-8859-1')
 
-	try:
-		earlier_download_details = json.load(open(download_details), encoding = 'ISO-8859-1')
-	except:
-		earlier_download_details = {}
+	# try:
+	# 	earlier_download_details = json.load(open(download_details), encoding = 'ISO-8859-1')
+	# except:
+	# 	earlier_download_details = {}
 
 	url_list = []
 	# artist_ids = []
@@ -122,11 +123,12 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, d
 			
 			# track_index_list.append()
 			if track != [] and track[1] != '':
-				downloaded = False
+				# downloaded = False
 				movie_path, final_path = get_full_song_path(key, track[1], out_dir)
-				if earlier_download_details.has_key(track[1]):
-					downloaded = earlier_download_details[track[1]]['downloaded']
-				if not downloaded:
+				# if earlier_download_details.has_key(track[1]):
+				# 	downloaded = earlier_download_details[track[1]]['downloaded']
+				# if not downloaded:
+				if final_path[-3:] in ['wav','mp3'] and not (os.path.isfile(final_path)):
 					jumbled_urls_dict[track[1]] = {}
 					jumbled_urls_dict[track[1]]['details'] = (key,idx2)
 					url_list.append(track[1])
@@ -140,7 +142,7 @@ def url_constructor(in_file = 'consolidated_song_names.json', search_type = 1, d
 def download_songs(in_file = 'songsPk_resolved.json',out_dir = '/home/varun01124/code/bollywoodSongsGather/songs', chunk_size = 20, search_type = 1 ):
 	""" Search youtube for artist names and select channel with most subscribers only if it has more than min_subscribers 
 	"""
-	(url_list,key_list,movie_song_names) = url_constructor(in_file,1)
+	(url_list,key_list,movie_song_names) = url_constructor(in_file,1,'url_location_map.json', out_dir)
 
 	# print url_list
 	tracks_info = zip(url_list,key_list)
@@ -165,7 +167,7 @@ def download_songs(in_file = 'songsPk_resolved.json',out_dir = '/home/varun01124
 	# json.dump(jumbled_urls_dict, open('url_location_map.json','wb'))
 
 	jumbled_url_chunks = []
-	response_chunks = []
+	# response_chunks = []
 
 	for each in results:
 		jumbled_url_chunks.append(each[1])
