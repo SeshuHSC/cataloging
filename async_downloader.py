@@ -253,4 +253,4 @@ def url_resolver(url):
 
 # def download_all_songs(input_file = '', chunk_size = '20'):
 if __name__ == "__main__":
-	download_songs('songsPk_resolved.json', '/mnt/bollywoodCollection', 20)	
+	download_songs('songsPk_resolved.json', '/home/ubuntu/audio/bollywoodCollection', 20)	
